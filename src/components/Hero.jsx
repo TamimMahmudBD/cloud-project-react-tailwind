@@ -3,11 +3,11 @@ import bgImage from '../assets/cyber-bg.png'
 
 const Hero = () => {
   return (
-    <div className='w-full h-screen bg-[#000814] text-white flex flex-col justify-between'>
+    <div name="Home" className='w-full h-screen bg-[#000814] text-white flex flex-col justify-between'>
       <div className='grid md:grid-cols-2 max-w-[1240px] m-auto'>
         <div className='flex flex-col justify-center md:items-start w-full px-2 py-8'>
           <p className='text-2xl'>Unique Sequencing & Production</p>
-          <h1 className='py-3 text-5xl md:text-7xl font-bold'>Cloud Management</h1>
+          <h1 className='py-3 text-5xl md:text-7xl font-bold'>Cloud HOST Management</h1>
           <p className='text-2xl'>This is our Tech Brand.</p>
           <button className='border bg-blue-900 border-blue-900 text-white hover:bg-black hover:text-white rounded-md py-3 px-6 my-4'>Get Started</button>
         </div>
@@ -15,7 +15,7 @@ const Hero = () => {
           <img className='w-full' src={bgImage} alt="/" />
         </div>
       </div>
-      <div className='absolute flex flex-col py-8 md:min-w-[760px] bottom-[-20%] mx-1 
+      <div className='absolute flex flex-col py-8 md:min-w-[760px] bottom-[-10%] mx-1 
             md:left-1/2 transform md:-translate-x-1/2 bg-[#1E3A8A] border border-slate-900 rounded-xl text-center shadow-xl'>
         <p className='font-bold'>Data Services</p>
         <div className='flex justify-between flex-wrap px-4 text-zinc-200'>

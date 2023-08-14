@@ -3,7 +3,7 @@ import React from 'react';
 
 const Pricing = () => {
     return (
-        <div name='pricing' className='w-full text-white my-24'>
+        <div name='Pricing' className='w-full text-white my-24'>
             <div className='w-full h-[800px] bg-[#000814] absolute mix-blend-overlay'></div>
 
             <div className='max-w-[1240px] mx-auto py-12'>
@@ -45,7 +45,7 @@ const Pricing = () => {
                             <button className='w-full border bg-blue-900 border-blue-900 text-white hover:bg-black hover:text-white rounded-md py-3 px-6 my-4'>Get Started</button>
                         </div>
                     </div>
-                    <div className='bg-indigo-900 text-white m-4 p-8 rounded-xl shadow-2xl relative'>
+                    <div className='bg-[#1E3A8A] text-white my-0 mx-4 p-8 rounded-xl shadow-2xl relative'>
                         <span className='uppercase px-3 py-1 bg-indigo-200 text-indigo-900 rounded-2xl text-sm'>Premium</span>
                         <div>
                             <p className='text-6xl font-bold py-4 flex'>$99<span className='text-xl text-slate-500 flex flex-col justify-end'>/mo</span></p>
