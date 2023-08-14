@@ -6,12 +6,12 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav)
 
   return (
-    <div className=' h-[60px] z-10 bg-black text-white flex drop-shadow-lg'>
+    <div className=' h-[60px] z-10 bg-[#1E3A8A] text-white flex drop-shadow-lg'>
 
       <div className='px-2 flex justify-between items-center w-full h-full'>
         <div className='flex items-center'>
-          <h1 className='text-3xl font-bold Pr-4 sm-text-4xl cursor-pointer'>BrAnd</h1>
-          <ul className='hidden lg:flex'>
+          <h1 className='text-3xl font-bold pl-4 sm-text-4xl cursor-pointer'>BrAnd</h1>
+          <ul className='hidden lg:flex pl-4'>
             <li className='p-2 mx-2 cursor-pointer'>Home</li>
             <li className='p-2 mx-2 cursor-pointer'>About</li>
             <li className='p-2 mx-2 cursor-pointer'>Support</li>
@@ -19,9 +19,9 @@ const Navbar = () => {
             <li className='p-2 mx-2 cursor-pointer'>Pricing</li>
           </ul>
         </div>
-        <div className='hidden lg:block'>
+        <div className='hidden lg:block pr-4'>
           <button className='border bg-zinc-200 border-blue-900 text-black hover:bg-black hover:text-white rounded-md w-[100px] h-10 mr-3'> Sign Up</button>
-          <button className='border bg-blue-900 border-blue-900 text-white hover:bg-black hover:text-white rounded-md w-[100px] h-10'> Login</button>
+          <button className='border bg-[#000814] border-blue-900 text-white hover:bg-black hover:text-white rounded-md w-[100px] h-10'> Login</button>
         </div>
         <div className='sm:block lg:hidden' onClick={handleClick}>
           {!nav ?
