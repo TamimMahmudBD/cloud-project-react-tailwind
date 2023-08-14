@@ -19,8 +19,9 @@ const Navbar = () => {
           <li className='p-2 mx-2 '><Link to="Home" className='cursor-pointer' smooth={true} offset={0} duration={500}>Home</Link></li>
           <li className='p-2 mx-2 '><Link to="About" className='cursor-pointer' smooth={true} offset={50} duration={500}>About</Link></li>
           <li className='p-2 mx-2 '><Link to="Support" className='cursor-pointer' smooth={true} offset={50} duration={500}>Support</Link></li>
-          <li className='p-2 mx-2 '><Link to="Platfrom" className='cursor-pointer' smooth={true} offset={-50} duration={500}>Platfrom</Link></li>
+          <li className='p-2 mx-2 '><Link to="Platfrom" className='cursor-pointer' smooth={true} offset={-70} duration={500}>Platfrom</Link></li>
           <li className='p-2 mx-2 '><Link to="Pricing" className='cursor-pointer' smooth={true} offset={50} duration={500}>Pricing</Link></li>
+          <li className='p-2 mx-2 '><Link to="Blog" className='cursor-pointer' smooth={true} offset={-70} duration={500}>Blog</Link></li>
           </ul>
         </div>
         <div className='hidden lg:block pr-4'>
@@ -45,6 +46,7 @@ const Navbar = () => {
         <li className='p-4 mx-2 cursor-pointer border-b-2 border-zinc-300 w-full'><Link onClick={handleClose} to="Support" className='cursor-pointer' smooth={true} offset={50} duration={500}>Support</Link></li>
         <li className='p-4 mx-2 cursor-pointer border-b-2 border-zinc-300 w-full'><Link onClick={handleClose} to="Platfrom" className='cursor-pointer' smooth={true} offset={-50} duration={500}>Platform</Link></li>
         <li className='p-4 mx-2 cursor-pointer border-b-2 border-zinc-300 w-full'><Link onClick={handleClose} to="Pricing" className='cursor-pointer' smooth={true} offset={50} duration={500}>Pricing</Link></li>
+        <li className='p-2 mx-2 cursor-pointer border-b-2 border-zinc-300 w-full'><Link onClick={handleClose} to="Blog" className='cursor-pointer' smooth={true} offset={-70} duration={500}>Blog</Link></li>
         <div className='my-4 flex flex-col'>
           <button className='border bg-zinc-200 border-blue-900 text-black hover:bg-black hover:text-white rounded-md  h-10 mr-3 mb-4'>Sign Up</button>
           <button onClick={indefinite} className='border bg-blue-900 border-blue-900 text-white hover:bg-black hover:text-white rounded-md  h-10 mr-3'>Login</button>
