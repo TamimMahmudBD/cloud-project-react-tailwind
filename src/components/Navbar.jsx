@@ -46,7 +46,7 @@ const Navbar = () => {
         <li className='p-4 mx-2 cursor-pointer border-b-2 border-zinc-300 w-full'><Link onClick={handleClose} to="Support" className='cursor-pointer' smooth={true} offset={50} duration={500}>Support</Link></li>
         <li className='p-4 mx-2 cursor-pointer border-b-2 border-zinc-300 w-full'><Link onClick={handleClose} to="Platfrom" className='cursor-pointer' smooth={true} offset={-50} duration={500}>Platform</Link></li>
         <li className='p-4 mx-2 cursor-pointer border-b-2 border-zinc-300 w-full'><Link onClick={handleClose} to="Pricing" className='cursor-pointer' smooth={true} offset={50} duration={500}>Pricing</Link></li>
-        <li className='p-2 mx-2 cursor-pointer border-b-2 border-zinc-300 w-full'><Link onClick={handleClose} to="Blog" className='cursor-pointer' smooth={true} offset={-70} duration={500}>Blog</Link></li>
+        <li className='p-4 mx-2 cursor-pointer border-b-2 border-zinc-300 w-full'><Link onClick={handleClose} to="Blog" className='cursor-pointer' smooth={true} offset={-70} duration={500}>Blog</Link></li>
         <div className='my-4 flex flex-col'>
           <button className='border bg-zinc-200 border-blue-900 text-black hover:bg-black hover:text-white rounded-md  h-10 mr-3 mb-4'>Sign Up</button>
           <button onClick={indefinite} className='border bg-blue-900 border-blue-900 text-white hover:bg-black hover:text-white rounded-md  h-10 mr-3'>Login</button>

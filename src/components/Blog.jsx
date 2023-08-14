@@ -11,7 +11,7 @@ const Blog = () => {
                 <h2 className='text-5xl font-bold'>Populer Blogs</h2>
                 <p className='text-2xl py-6 text-black'>Lorem ipsum dolor sit amet consectetur.</p>
             </div>
-            <div className='max-w-[1240] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 px-8'>
+            <div className='max-w-[1240] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 px-10'>
                 <div className='shadow-lg rounded-md'>
                     <div className='overflow-hidden'><img src={Blog1} alt="" className='hover:scale-110 duration-1000'/></div>
                     <p className='text-2xl p-2 text-black'>Lorem ipsum dolor sit amet consectetur.</p>
